@@ -4,53 +4,54 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { FaDatabase, FaPython, FaChartBar, FaBrain, FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
+// --- Enhanced Data for Learning Slides ---
 const learningSlides = [
   {
     id: "basics",
-    title: "Data Science & ML Basics",
+    title: "Data Science & ML Fundamentals",
     icon: <FaBrain className="text-4xl text-accent-primary" />,
     points: [
-      "Supervised vs Unsupervised Learning",
-      "Data Preprocessing & Cleaning",
-      "Feature Engineering & Selection",
-      "Cross-validation & Model Evaluation",
-      "Bias-Variance Tradeoff",
+      "Supervised (e.g., predicting house prices) vs. Unsupervised Learning (e.g., customer segmentation)",
+      "Data Preprocessing: Handling missing values, scaling features (Min-Max, Standard), and encoding",
+      "Feature Engineering: Creating new, impactful features from existing data to boost model accuracy",
+      "Model Evaluation: Using metrics like Accuracy, Precision, Recall, F1-Score, and MSE",
+      "Cross-Validation (e.g., K-Fold) to ensure the model generalizes well to new, unseen data",
     ],
   },
   {
     id: "tools",
-    title: "SQL & Python Libraries",
+    title: "Essential Tools & Libraries",
     icon: <FaPython className="text-4xl text-accent-cyan" />,
     points: [
-      "SQL: Joins, Aggregations, Subqueries",
-      "NumPy: Array operations & Linear algebra",
-      "Pandas: Data manipulation & analysis",
-      "Scikit-learn: ML algorithms & pipelines",
-      "Jupyter: Interactive development",
+      "SQL: Writing complex queries with Joins, Window Functions, and CTEs for data extraction",
+      "NumPy: Leveraging N-dimensional arrays for high-performance scientific computing",
+      "Pandas: Mastering DataFrames for data cleaning, transformation, and analysis (groupby, merge)",
+      "Scikit-learn: Implementing a wide array of ML algorithms and building robust pipelines",
+      "Jupyter Notebooks: An interactive environment for rapid prototyping and exploratory data analysis (EDA)",
     ],
   },
   {
     id: "visualization",
-    title: "Data Visualization",
+    title: "Effective Data Visualization",
     icon: <FaChartBar className="text-4xl text-accent-highlight" />,
     points: [
-      "Matplotlib: Statistical plots & customization",
-      "Seaborn: Statistical data visualization",
-      "Plotly: Interactive dashboards",
-      "Chart selection for different data types",
-      "Storytelling with data",
+      "Matplotlib & Seaborn: Creating static, publication-quality plots like histograms, heatmaps, and pairplots",
+      "Plotly: Building interactive charts and dashboards for dynamic data exploration",
+      "Chart Selection: Choosing the right chart (Bar for comparison, Line for trends, Scatter for relationships)",
+      "Dashboarding Tools: Basic principles of tools like Tableau or Power BI for business intelligence",
+      "Storytelling with Data: Crafting compelling narratives that communicate key insights clearly",
     ],
   },
   {
     id: "algorithms",
-    title: "ML & DL Algorithms",
+    title: "Machine & Deep Learning Algorithms",
     icon: <FaDatabase className="text-4xl text-heading" />,
     points: [
-      "Supervised: Decision Tree, Random Forest, SVM",
-      "Classification: Logistic Regression, KNN",
-      "Ensemble: XGBoost, Gradient Boosting",
-      "Deep Learning: ANN, CNN, RNN",
-      "Hyperparameter tuning & optimization",
+      "Regression Models: Linear Regression, Lasso, Ridge (for predicting continuous values like sales)",
+      "Classification Models: Logistic Regression, k-NN, SVM, Naive Bayes (for predicting categories like churn)",
+      "Ensemble Methods: Random Forest (Bagging) & Gradient Boosting, XGBoost (Boosting) for high performance",
+      "Clustering Algorithms: K-Means, DBSCAN, Hierarchical Clustering (for finding hidden groups)",
+      "Deep Learning: ANNs for tabular data, CNNs for image recognition, and RNNs/LSTMs for time-series",
     ],
   },
 ]
@@ -118,7 +119,8 @@ const Learned = ({ onNext, onPrev }) => {
                 ))}
               </div>
 
-              {/* Sample chart placeholder */}
+              {/* Sample chart placeholder - COMMENTED OUT */}
+              {/*
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -131,6 +133,7 @@ const Learned = ({ onNext, onPrev }) => {
                   className="rounded opacity-75"
                 />
               </motion.div>
+              */}
             </motion.div>
           </AnimatePresence>
 

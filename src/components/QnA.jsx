@@ -42,13 +42,9 @@ const QnA = ({ onNext, onPrev }) => {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold text-heading mb-6">Any Questions?</h2>
-
-          <p className="text-xl text-text-secondary mb-8">
-            I'd love to hear from you! Ask me anything about my projects, experience, or data science in general.
-          </p>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
@@ -106,7 +102,7 @@ const QnA = ({ onNext, onPrev }) => {
               armaan.siddiqui@example.com
             </a>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           initial={{ opacity: 0 }}

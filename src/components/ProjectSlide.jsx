@@ -16,13 +16,6 @@ const ProjectSlide = ({ project }) => {
         <h3 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">{project.title}</h3>
         <p className="text-text-secondary text-lg mb-6">{project.summary}</p>
         <div className="flex justify-center gap-4">
-          <a
-            href={project.github}
-            className="flex items-center gap-2 bg-accent-primary text-white px-4 py-2 rounded-lg hover:bg-accent-primary/80 transition-colors"
-          >
-            <FaGithub />
-            GitHub
-          </a>
           {project.demo && (
             <a
               href={project.demo}

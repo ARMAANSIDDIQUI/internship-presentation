@@ -6,7 +6,7 @@ import { FaArrowRight, FaGraduationCap, FaBriefcase } from "react-icons/fa"
 
 const Intro = ({ onNext }) => {
   const [typingText, setTypingText] = useState("")
-  const fullText = "Hi, I'm Armaan Siddiqui — DS & ML Enthusiast 🚀"
+  const fullText = "Hi, I'm Armaan Siddiqui — DS & ML Enthusiast "
 
   useEffect(() => {
     let i = 0
@@ -74,7 +74,7 @@ const Intro = ({ onNext }) => {
             <div className="space-y-4 mb-6">
               <div className="flex items-center gap-3 text-text-secondary">
                 <FaBriefcase className="text-accent-primary" />
-                <span>Data Science Intern</span>
+                <span>Data Science & Machine Learning Intern</span>
               </div>
               <div className="flex items-center gap-3 text-text-secondary">
                 <FaGraduationCap className="text-accent-cyan" />
