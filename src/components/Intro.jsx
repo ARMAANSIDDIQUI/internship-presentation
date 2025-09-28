@@ -99,7 +99,7 @@ const Intro = ({ onNext }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
           >
-            Start Journey
+            Start
             <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
           </motion.button>
         </motion.div>
