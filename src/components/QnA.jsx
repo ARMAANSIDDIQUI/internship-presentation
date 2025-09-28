@@ -111,7 +111,7 @@ const QnA = ({ onNext, onPrev }) => {
           className="mt-12"
         >
           <button onClick={onNext} className="text-text-secondary hover:text-accent-primary transition-colors">
-            Continue to Thank You →
+            Continue →
           </button>
         </motion.div>
       </div>
