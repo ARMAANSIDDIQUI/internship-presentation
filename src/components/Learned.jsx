@@ -23,7 +23,7 @@ const learningSlides = [
     title: "Essential Tools & Libraries",
     icon: <FaPython className="text-4xl text-accent-cyan" />,
     points: [
-      "SQL: Writing complex queries with Joins, Window Functions, and CTEs for data extraction",
+      "SQL: Writing complex queries with Joins, Window Functions, and CTEs(Common Table Expressions) for data extraction",
       "NumPy: Leveraging N-dimensional arrays for high-performance scientific computing",
       "Pandas: Mastering DataFrames for data cleaning, transformation, and analysis (groupby, merge)",
       "Scikit-learn: Implementing a wide array of ML algorithms and building robust pipelines",
@@ -36,7 +36,7 @@ const learningSlides = [
     icon: <FaChartBar className="text-4xl text-accent-highlight" />,
     points: [
       "Matplotlib & Seaborn: Creating static, publication-quality plots like histograms, heatmaps, and pairplots",
-      "Plotly: Building interactive charts and dashboards for dynamic data exploration",
+      // "Plotly: Building interactive charts and dashboards for dynamic data exploration",
       "Chart Selection: Choosing the right chart (Bar for comparison, Line for trends, Scatter for relationships)",
       "Dashboarding Tools: Basic principles of tools like Tableau or Power BI for business intelligence",
       "Storytelling with Data: Crafting compelling narratives that communicate key insights clearly",
@@ -50,7 +50,7 @@ const learningSlides = [
       "Regression Models: Linear Regression, Lasso, Ridge (for predicting continuous values like sales)",
       "Classification Models: Logistic Regression, k-NN, SVM, Naive Bayes (for predicting categories like churn)",
       "Ensemble Methods: Random Forest (Bagging) & Gradient Boosting, XGBoost (Boosting) for high performance",
-      "Clustering Algorithms: K-Means, DBSCAN, Hierarchical Clustering (for finding hidden groups)",
+      "Clustering Algorithms: K-Means, Hierarchical Clustering (for finding hidden groups)",
       "Deep Learning: ANNs for tabular data, CNNs for image recognition, and RNNs/LSTMs for time-series",
     ],
   },

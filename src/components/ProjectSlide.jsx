@@ -22,7 +22,6 @@ const ProjectSlide = ({ project }) => {
               className="flex items-center gap-2 bg-accent-cyan text-white px-4 py-2 rounded-lg hover:bg-accent-cyan/80 transition-colors"
             >
               <FaExternalLinkAlt />
-              Demo
             </a>
           )}
         </div>

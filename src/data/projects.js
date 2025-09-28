@@ -101,7 +101,7 @@ export const projectsData = [
       "Created feature interactions (temperature × humidity)",
       "Handled seasonal patterns in climate data",
     ],
-    models: ["Random Forest", "XGBoost", "LightGBM", "SVM", "Logistic Regression", "KNN", "MLP", "Stacked Ensemble"],
+    models: ["Random Forest", "XGBoost", "SVM", "Logistic Regression", "KNN", "Stacked Ensemble"],
     "performance": [
       { "model": "Random Forest", "accuracy": 86.00, "precision": 85.8, "recall": 86.0, "f1": 85.9 },
       { "model": "SVM", "accuracy": 86.00, "precision": 85.7, "recall": 86.0, "f1": 85.8 },
